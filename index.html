@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <style>
+      main {
+        position: relative;
+        height: 100vh;
+        padding: 80px;
+        overflow: hidden;
+      }
+      .partially-hidden-element {
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        bottom: -1px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <input type="string" placeholder="Name" />
+      <div class="partially-hidden-element"></div>
+    </main>
+  </body>
+</html>

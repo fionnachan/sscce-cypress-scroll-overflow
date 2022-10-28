@@ -1,0 +1,17 @@
+{
+  "name": "sscce-cypress-scroll-overflow",
+  "version": "1.0.0",
+  "description": "Short Self Contained Correct Example of Scroll Overflow Issue",
+  "scripts": {
+    "start": "web-dev-server --app-index index.html --node-resolve --open --watch",
+    "e2e:open": "cypress open",
+    "e2e:run": "cypress run"
+  },
+  "author": "Fionna Chan",
+  "license": "MIT",
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.0.2",
+    "@web/dev-server": "^0.1.35",
+    "cypress": "^10.11.0"
+  }
+}
