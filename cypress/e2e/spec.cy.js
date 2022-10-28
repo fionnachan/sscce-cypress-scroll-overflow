@@ -1,5 +1,5 @@
 describe("Home Page", () => {
-  it(".wrapper should have a scrollTop of 0", () => {
+  it("main should have a scrollTop of 0", () => {
     cy.visit("/");
     cy.get("input").type("something");
     cy.get("main").invoke("scrollTop").should("eq", 0);
